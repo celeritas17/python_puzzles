@@ -2,6 +2,7 @@
 
 permutations.py: program to print all permutations of a string. 
 Usage:
+
 	python permutations.py "example"
 
 
