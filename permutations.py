@@ -11,13 +11,14 @@ def permutations(s):
 		return [s]
 	elif len(s) == 2:
 		return [s, s[::-1]]
-	#else
-	#	return insert(s[0], s[1:])
+	else:
+		perms = []
+		for t in permutations(s[1:]):
+			perms += insert(s[0], t)
+		return perms
 
 if len(argv) < 2:
 	print "Usage: python %s <string>\n" % argv[0]
 	exit(1)
 
-#print permutations(argv[1])
-
-print insert('c', argv[1])
+print permutations(argv[1])
