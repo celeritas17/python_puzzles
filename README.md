@@ -16,7 +16,6 @@ is_permutation.py: program to determine if one string is a permutation of anothe
 
 Compare is_permutation.py with a similar program in C:
 	
-	"""c_cpp
 	#include <stdio.h>
 	#include <stdlib.h>
 
@@ -48,7 +47,6 @@ Compare is_permutation.py with a similar program in C:
         	}
         	return 1;        
 	}
-	"""
 
 
 
