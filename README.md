@@ -15,6 +15,7 @@ is_permutation.py: program to determine if one string is a permutation of anothe
 	python is_permutation.py "string1" "string2"
 
 Compare is_permutation.py with a similar program in C:
+	
 	"""C
 	#include <stdio.h>
 	#include <stdlib.h>
