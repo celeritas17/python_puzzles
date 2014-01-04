@@ -22,6 +22,6 @@ if len(argv) < 3:
 	print "Usage: %s <string> <string>\n" % argv[0]
 	exit(1)
 
-print "%s is%s a rotation of %s\n" % (argv[2], "" if is_rotation(argv[1], argv[2]) else " not", argv[1])
+print "%r is%s a rotation of %r\n" % (argv[2], "" if is_rotation(argv[1], argv[2]) else " not", argv[1])
 
 
