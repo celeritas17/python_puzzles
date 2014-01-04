@@ -1,16 +1,16 @@
 ##Solutions to programming puzzles in python for fun and practice
 
-permutations.py: program to print all permutations of a string. 
+**permutations.py**: program to print all permutations of a string. 
 Usage:
 
 	python permutations.py "example"
 
-unique_chars.py: Program to determine if a string has all unique characters.
+**unique_chars.py**: Program to determine if a string has all unique characters.
 Usage:
 G
 	python unique_chars.py "test_string"
 
-is_permutation.py: program to determine if one string is a permutation of another string. Usage:
+**is_permutation.py**: program to determine if one string is a permutation of another string. Usage:
 
 	python is_permutation.py "string1" "string2"
 
@@ -32,7 +32,7 @@ Compare is_permutation.py with a similar function in C:
                 return 1;        
         }
 
-compress.py: program to perform rudimentary string compression using character counts, e.g., 
+**compress.py**: program to perform rudimentary string compression using character counts, e.g., 
 aaaabbcc --> a4b2c2. Usage:
 
         python compress.py "stringToCompress"
