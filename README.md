@@ -32,7 +32,8 @@ Compare is_permutation.py with a similar function in C:
                 return 1;        
         }
 
-compress.py: program to perform rudimentary string compression using character counts, e.g., aaaabbcc -> a4b2c2. Usage:
+compress.py: program to perform rudimentary string compression using character counts, e.g., 
+aaaabbcc --> a4b2c2. Usage:
 
         python compress.py "stringToCompress"
 
