@@ -7,7 +7,7 @@ Usage:
 
 **unique_chars.py**: Program to determine if a string has all unique characters.
 Usage:
-G
+
 	python unique_chars.py "test_string"
 
 **is_permutation.py**: program to determine if one string is a permutation of another string. Usage:
