@@ -37,4 +37,9 @@ aaaabbcc --> a4b2c2. Usage:
 
         python compress.py "stringToCompress"
 
+**is_rotation.py**: program to check if a string is a "rotation" of another string, e.g., 
+'llohe' is a rotation of 'hello'. Usage:
 
+        python is_rotation.py "hello" "llohe"
+
+        
