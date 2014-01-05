@@ -6,6 +6,7 @@ def insert(c, s):
 		inserts.append(s[:i] + c + s[i:])
 	return inserts
 
+# Returns a list of all permutations of string s
 def permutations(s):
 	if len(s) == 1:
 		return [s]
