@@ -1,6 +1,7 @@
 from sys import exit, argv
 
-# is_permutation: returns true if t is a permutation (anagram) of s
+# is_permutation: returns True if t is a permutation (anagram) of s,
+# False otherwise.
 def is_permutation(s, t):
 	t_chars = {}
 	s_chars = {}
