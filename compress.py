@@ -1,5 +1,7 @@
 from sys import argv, exit
 
+# compress: returns a compressed version of string s
+# (e.g., aaabbcc -> a3b2c2)
 def compress(s):
 	char_count = 0
 	compressed = ''
