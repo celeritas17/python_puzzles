@@ -1,5 +1,8 @@
 from sys import argv, exit
 
+# insert: returns a list of strings formed by inserting the
+# character c at each index of string s (including after s)
+# (e.g., insert('s', 'cat') returns ['scat', 'csat', 'cast', 'cats'])
 def insert(c, s):
 	inserts = []
 	for i in range(0, len(s) + 1):
