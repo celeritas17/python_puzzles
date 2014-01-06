@@ -1,5 +1,7 @@
 from sys import argv, exit
 
+# is_rotation: Returns True if string t is a rotation of string s
+# (e.g., 'llohe' is a rotation of 'hello').
 def is_rotation(s, t):
 	if len(s) != len(t):
 		return False
