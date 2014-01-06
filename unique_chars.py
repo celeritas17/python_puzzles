@@ -1,6 +1,6 @@
 from sys import argv, exit
 
-# unique_chars: Returns true if input string s has all unique chars.
+# unique_chars: Returns True if input string s has all unique chars.
 def unique_chars(s):
 	chars = {}
 	for i in s:
