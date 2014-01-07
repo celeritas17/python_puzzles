@@ -30,4 +30,4 @@ if len(argv) < 3:
 	print "Usage: %s <string> <string>\n" % argv[0]
 	exit(1)
 
-print "%s is%s a permutation of %s\n" % (argv[1], "" if is_permutation(argv[1], argv[2]) else " not", argv[2])
+print "%r is%s a permutation of %r\n" % (argv[1], "" if is_permutation(argv[1], argv[2]) else " not", argv[2])
