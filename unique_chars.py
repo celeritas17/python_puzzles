@@ -12,4 +12,4 @@ if len(argv) < 2:
 	print "Usage: %s <string>\n" % argv[0]
 	exit(1)
 
-print "%r does%s have unique chars.\n" % (argv[1], "" if unique_chars(argv[1]) else " not")
+print "%r does%s have all unique chars.\n" % (argv[1], "" if unique_chars(argv[1]) else " not")
