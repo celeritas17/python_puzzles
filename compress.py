@@ -19,9 +19,9 @@ def compress(s):
 		compressed.append(''.join(chars))
 		char_count = 0
 
-	if len(compressed) < s_len:
-		return ''.join(compressed)
-
+	compressed_string = ''.join(compressed)
+	if len(compressed_string) < s_len:
+		return compressed_string
 	return s
 
 if len(argv) < 2:
