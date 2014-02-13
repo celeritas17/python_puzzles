@@ -3,9 +3,9 @@ from sys import argv, exit
 # compress: returns a compressed version of string s
 # (e.g., aaabbcc -> a3b2c2)
 def compress(s):
+	
 	char_count = 0
-	compressed = ''
-	char = ''
+	compressed = []
 	i = 0
 	s_len = len(s)
 	
@@ -14,11 +14,13 @@ def compress(s):
 		while i < s_len and s[i] == char:
 			char_count += 1
 			i += 1
-		compressed += (char + str(char_count))
+		chars = [char]
+		chars.append(str(char_count))
+		compressed.append(''.join(chars))
 		char_count = 0
 
 	if len(compressed) < s_len:
-		return compressed
+		return ''.join(compressed)
 
 	return s
 
